@@ -326,7 +326,7 @@ const Admin: React.FC<AdminProps> = ({ darkMode }) => {
           status: 'SENT',
           deviceId: connectedDevices[0]?.id || '',
         }]);
-      }, 180000);
+      }, 18000);
 
       return () => {
         if (autoIntervalRef.current) {
